@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF28E4131EDBA7D700E807D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF28E4121EDBA7D700E807D0 /* AppDelegate.swift */; };
+		EF28E4151EDBA7D700E807D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF28E4141EDBA7D700E807D0 /* ViewController.swift */; };
+		EF28E4181EDBA7D700E807D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF28E4161EDBA7D700E807D0 /* Main.storyboard */; };
+		EF28E41B1EDBA7D700E807D0 /* PlanTrip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF28E4191EDBA7D700E807D0 /* PlanTrip.xcdatamodeld */; };
+		EF28E41D1EDBA7D700E807D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF28E41C1EDBA7D700E807D0 /* Assets.xcassets */; };
+		EF28E4201EDBA7D700E807D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF28E41E1EDBA7D700E807D0 /* LaunchScreen.storyboard */; };
+		EF28E42B1EDBA7D700E807D0 /* PlanTripTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF28E42A1EDBA7D700E807D0 /* PlanTripTests.swift */; };
+		EF28E4361EDBA7D700E807D0 /* PlanTripUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF28E4351EDBA7D700E807D0 /* PlanTripUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF28E4271EDBA7D700E807D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF28E4071EDBA7D700E807D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF28E40E1EDBA7D700E807D0;
+			remoteInfo = PlanTrip;
+		};
+		EF28E4321EDBA7D700E807D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF28E4071EDBA7D700E807D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF28E40E1EDBA7D700E807D0;
+			remoteInfo = PlanTrip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF28E40F1EDBA7D700E807D0 /* PlanTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF28E4121EDBA7D700E807D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF28E4141EDBA7D700E807D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF28E4171EDBA7D700E807D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF28E41A1EDBA7D700E807D0 /* PlanTrip.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlanTrip.xcdatamodel; sourceTree = "<group>"; };
+		EF28E41C1EDBA7D700E807D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF28E41F1EDBA7D700E807D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF28E4211EDBA7D700E807D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF28E4261EDBA7D700E807D0 /* PlanTripTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanTripTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF28E42A1EDBA7D700E807D0 /* PlanTripTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanTripTests.swift; sourceTree = "<group>"; };
+		EF28E42C1EDBA7D700E807D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF28E4311EDBA7D700E807D0 /* PlanTripUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanTripUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF28E4351EDBA7D700E807D0 /* PlanTripUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanTripUITests.swift; sourceTree = "<group>"; };
+		EF28E4371EDBA7D700E807D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF28E40C1EDBA7D700E807D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF28E4231EDBA7D700E807D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF28E42E1EDBA7D700E807D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF28E4061EDBA7D700E807D0 = {
+			isa = PBXGroup;
+			children = (
+				EF28E4111EDBA7D700E807D0 /* PlanTrip */,
+				EF28E4291EDBA7D700E807D0 /* PlanTripTests */,
+				EF28E4341EDBA7D700E807D0 /* PlanTripUITests */,
+				EF28E4101EDBA7D700E807D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF28E4101EDBA7D700E807D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF28E40F1EDBA7D700E807D0 /* PlanTrip.app */,
+				EF28E4261EDBA7D700E807D0 /* PlanTripTests.xctest */,
+				EF28E4311EDBA7D700E807D0 /* PlanTripUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF28E4111EDBA7D700E807D0 /* PlanTrip */ = {
+			isa = PBXGroup;
+			children = (
+				EF28E4121EDBA7D700E807D0 /* AppDelegate.swift */,
+				EF28E4141EDBA7D700E807D0 /* ViewController.swift */,
+				EF28E4161EDBA7D700E807D0 /* Main.storyboard */,
+				EF28E41C1EDBA7D700E807D0 /* Assets.xcassets */,
+				EF28E41E1EDBA7D700E807D0 /* LaunchScreen.storyboard */,
+				EF28E4211EDBA7D700E807D0 /* Info.plist */,
+				EF28E4191EDBA7D700E807D0 /* PlanTrip.xcdatamodeld */,
+			);
+			path = PlanTrip;
+			sourceTree = "<group>";
+		};
+		EF28E4291EDBA7D700E807D0 /* PlanTripTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF28E42A1EDBA7D700E807D0 /* PlanTripTests.swift */,
+				EF28E42C1EDBA7D700E807D0 /* Info.plist */,
+			);
+			path = PlanTripTests;
+			sourceTree = "<group>";
+		};
+		EF28E4341EDBA7D700E807D0 /* PlanTripUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF28E4351EDBA7D700E807D0 /* PlanTripUITests.swift */,
+				EF28E4371EDBA7D700E807D0 /* Info.plist */,
+			);
+			path = PlanTripUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF28E40E1EDBA7D700E807D0 /* PlanTrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF28E43A1EDBA7D700E807D0 /* Build configuration list for PBXNativeTarget "PlanTrip" */;
+			buildPhases = (
+				EF28E40B1EDBA7D700E807D0 /* Sources */,
+				EF28E40C1EDBA7D700E807D0 /* Frameworks */,
+				EF28E40D1EDBA7D700E807D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlanTrip;
+			productName = PlanTrip;
+			productReference = EF28E40F1EDBA7D700E807D0 /* PlanTrip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF28E4251EDBA7D700E807D0 /* PlanTripTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF28E43D1EDBA7D700E807D0 /* Build configuration list for PBXNativeTarget "PlanTripTests" */;
+			buildPhases = (
+				EF28E4221EDBA7D700E807D0 /* Sources */,
+				EF28E4231EDBA7D700E807D0 /* Frameworks */,
+				EF28E4241EDBA7D700E807D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF28E4281EDBA7D700E807D0 /* PBXTargetDependency */,
+			);
+			name = PlanTripTests;
+			productName = PlanTripTests;
+			productReference = EF28E4261EDBA7D700E807D0 /* PlanTripTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF28E4301EDBA7D700E807D0 /* PlanTripUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF28E4401EDBA7D700E807D0 /* Build configuration list for PBXNativeTarget "PlanTripUITests" */;
+			buildPhases = (
+				EF28E42D1EDBA7D700E807D0 /* Sources */,
+				EF28E42E1EDBA7D700E807D0 /* Frameworks */,
+				EF28E42F1EDBA7D700E807D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF28E4331EDBA7D700E807D0 /* PBXTargetDependency */,
+			);
+			name = PlanTripUITests;
+			productName = PlanTripUITests;
+			productReference = EF28E4311EDBA7D700E807D0 /* PlanTripUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF28E4071EDBA7D700E807D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ju Young Kim";
+				TargetAttributes = {
+					EF28E40E1EDBA7D700E807D0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S7N5E7Z94J;
+						ProvisioningStyle = Automatic;
+					};
+					EF28E4251EDBA7D700E807D0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S7N5E7Z94J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF28E40E1EDBA7D700E807D0;
+					};
+					EF28E4301EDBA7D700E807D0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S7N5E7Z94J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF28E40E1EDBA7D700E807D0;
+					};
+				};
+			};
+			buildConfigurationList = EF28E40A1EDBA7D700E807D0 /* Build configuration list for PBXProject "PlanTrip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF28E4061EDBA7D700E807D0;
+			productRefGroup = EF28E4101EDBA7D700E807D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF28E40E1EDBA7D700E807D0 /* PlanTrip */,
+				EF28E4251EDBA7D700E807D0 /* PlanTripTests */,
+				EF28E4301EDBA7D700E807D0 /* PlanTripUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF28E40D1EDBA7D700E807D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF28E4201EDBA7D700E807D0 /* LaunchScreen.storyboard in Resources */,
+				EF28E41D1EDBA7D700E807D0 /* Assets.xcassets in Resources */,
+				EF28E4181EDBA7D700E807D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF28E4241EDBA7D700E807D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF28E42F1EDBA7D700E807D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF28E40B1EDBA7D700E807D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF28E4151EDBA7D700E807D0 /* ViewController.swift in Sources */,
+				EF28E4131EDBA7D700E807D0 /* AppDelegate.swift in Sources */,
+				EF28E41B1EDBA7D700E807D0 /* PlanTrip.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF28E4221EDBA7D700E807D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF28E42B1EDBA7D700E807D0 /* PlanTripTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF28E42D1EDBA7D700E807D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF28E4361EDBA7D700E807D0 /* PlanTripUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF28E4281EDBA7D700E807D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF28E40E1EDBA7D700E807D0 /* PlanTrip */;
+			targetProxy = EF28E4271EDBA7D700E807D0 /* PBXContainerItemProxy */;
+		};
+		EF28E4331EDBA7D700E807D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF28E40E1EDBA7D700E807D0 /* PlanTrip */;
+			targetProxy = EF28E4321EDBA7D700E807D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF28E4161EDBA7D700E807D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF28E4171EDBA7D700E807D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF28E41E1EDBA7D700E807D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF28E41F1EDBA7D700E807D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF28E4381EDBA7D700E807D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF28E4391EDBA7D700E807D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF28E43B1EDBA7D700E807D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S7N5E7Z94J;
+				INFOPLIST_FILE = PlanTrip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JuYoungKim.PlanTrip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EF28E43C1EDBA7D700E807D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S7N5E7Z94J;
+				INFOPLIST_FILE = PlanTrip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JuYoungKim.PlanTrip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EF28E43E1EDBA7D700E807D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S7N5E7Z94J;
+				INFOPLIST_FILE = PlanTripTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JuYoungKim.PlanTripTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlanTrip.app/PlanTrip";
+			};
+			name = Debug;
+		};
+		EF28E43F1EDBA7D700E807D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S7N5E7Z94J;
+				INFOPLIST_FILE = PlanTripTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JuYoungKim.PlanTripTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlanTrip.app/PlanTrip";
+			};
+			name = Release;
+		};
+		EF28E4411EDBA7D700E807D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = S7N5E7Z94J;
+				INFOPLIST_FILE = PlanTripUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JuYoungKim.PlanTripUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PlanTrip;
+			};
+			name = Debug;
+		};
+		EF28E4421EDBA7D700E807D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = S7N5E7Z94J;
+				INFOPLIST_FILE = PlanTripUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JuYoungKim.PlanTripUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PlanTrip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF28E40A1EDBA7D700E807D0 /* Build configuration list for PBXProject "PlanTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF28E4381EDBA7D700E807D0 /* Debug */,
+				EF28E4391EDBA7D700E807D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF28E43A1EDBA7D700E807D0 /* Build configuration list for PBXNativeTarget "PlanTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF28E43B1EDBA7D700E807D0 /* Debug */,
+				EF28E43C1EDBA7D700E807D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF28E43D1EDBA7D700E807D0 /* Build configuration list for PBXNativeTarget "PlanTripTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF28E43E1EDBA7D700E807D0 /* Debug */,
+				EF28E43F1EDBA7D700E807D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF28E4401EDBA7D700E807D0 /* Build configuration list for PBXNativeTarget "PlanTripUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF28E4411EDBA7D700E807D0 /* Debug */,
+				EF28E4421EDBA7D700E807D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF28E4191EDBA7D700E807D0 /* PlanTrip.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF28E41A1EDBA7D700E807D0 /* PlanTrip.xcdatamodel */,
+			);
+			currentVersion = EF28E41A1EDBA7D700E807D0 /* PlanTrip.xcdatamodel */;
+			path = PlanTrip.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF28E4071EDBA7D700E807D0 /* Project object */;
+}
