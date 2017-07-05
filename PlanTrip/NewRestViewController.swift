@@ -7,13 +7,29 @@
 //
 
 import UIKit
+import SDWebImage
 import YelpAPI
 
-class NewItemViewController: UIViewController {
+class NewRestViewController: UIViewController {
     
     var curr_day:Day? = nil
     
     var my_data:my_data? = nil
+    
+    @IBOutlet weak var breakfast_btn: RestButton!
+    
+    @IBOutlet weak var lunch_btn: RestButton!
+    
+    @IBOutlet weak var dinner_btn: RestButton!
+    
+    
+    @IBOutlet weak var rest_tableview: UITableView!
+    
+    var term:String? = "Restaurants"
+    
+    var business_list:[Business] = []
+    
+    var selected_business:Business? = nil
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,19 +43,157 @@ class NewItemViewController: UIViewController {
     }
 
     func get_restaurants(){
+        self.business_list.removeAll()
         let client = YLPClient.authorize(withAppId: "8OYnVkmWi4Mw9vsIOccG2A", secret: "9QeTJDRtrz6P9OlOUpeASPcKkhtv1juGW6hfU75CzXPWgMyAb9w1rk5wpYmzIv5j") { (YLPClient, error) in
             if(error != nil){
                 print("error in yelp api")
             }else{
-                YLPClient?.search(withLocation: "Chicago", term: "dinner", limit: 30, offset: 0, sort: YLPSortType.highestRated, completionHandler: { (YLPSearch, error) in
+                YLPClient?.search(withLocation: (self.my_data?.city)!, term: self.term!, limit: 30, offset: 0, sort: YLPSortType.highestRated, completionHandler: { (YLPSearch, error) in
                     if(YLPSearch == nil){
-                        print("I'm afraid information regarding the current city is not available. :(")
+                        let messageLabel = UILabel(frame: CGRect(x: 0,y: 0, width: self.view.bounds.size.width, height:self.view.bounds.size.height))
+                        messageLabel.text = "Sorry.\n I'm aftraid we have no information\n regarding the current city."
+                        messageLabel.textColor = UIColor.black
+                        messageLabel.numberOfLines = 0;
+                        messageLabel.textAlignment = .center;
+                        messageLabel.font = UIFont(name: "TrebuchetMS", size: 13)
+                        messageLabel.sizeToFit()
+                        
+                        self.rest_tableview.backgroundView = messageLabel;
+                        self.rest_tableview.separatorColor = UIColor.clear;
                     }else{
-                        print(YLPSearch?.businesses[0].name)
+                        for business:YLPBusiness in (YLPSearch?.businesses)! {
+                            var addr:String = ""
+                            
+                            let addr_temp:YLPLocation = business.location
+                            if(business.location.address.count < 1){
+                                addr = "\(business.location.city)"
+                            }else {
+                                addr = "\(business.location.address[0]) \(business.location.city)"
+                            }
+                            
+                            let new_business:Business = Business.init(name: business.name, location: addr, img_url: business.imageURL, rating: business.rating, phone_number: business.phone, business_url: business.url, categories: business.categories, isClosed: business.isClosed, reviewCount: business.reviewCount, lat: (business.location.coordinate?.latitude)!, long: (business.location.coordinate?.longitude)!, type: "Restaurant")
+                            self.business_list.append(new_business)
+                        }
+                        self.rest_tableview.reloadData()
+                        self.rest_tableview.setContentOffset(CGPoint.zero, animated: true)
+                        
                     }
-                    print("YELP API WORKS!")
                 })
             }
+        }
+    }
+    
+    
+    @IBAction func breakfast_btn_clicked(_ sender: Any) {
+        print("PROBLEM IN BREKFAST BTN")
+        btn_click_handler(curr_btn: self.breakfast_btn, other_btn1: self.lunch_btn, other_btn2: self.dinner_btn, term: "Breakfast")
+    }
+    
+    @IBAction func lunch_btn_clicked(_ sender: Any) {
+        print("PROBLEM IN LUNCH BTN")
+        btn_click_handler(curr_btn: self.lunch_btn, other_btn1: self.breakfast_btn, other_btn2: self.dinner_btn, term: "Lunch")
+    }
+    
+    @IBAction func dinner_btn_clicked(_ sender: Any) {
+        print("PROBLEM IN DINNER BTN")
+        btn_click_handler(curr_btn: self.dinner_btn, other_btn1: self.breakfast_btn, other_btn2: self.lunch_btn, term: "Dinner")
+    }
+    
+    
+    func btn_click_handler(curr_btn:RestButton, other_btn1: RestButton, other_btn2: RestButton, term:String){
+        print("PROBLEM IN BTN ACTIONNNNNNN")
+        other_btn1.clicked = false
+        other_btn1.btn_pressed()
+        other_btn2.clicked = false
+        other_btn2.btn_pressed()
+        
+        if(!curr_btn.clicked){
+            self.term = term
+            curr_btn.clicked = true
+            curr_btn.btn_pressed()
+            
+            //api call and refresh tableview
+            get_restaurants()
+        }else{
+            self.term = "Restaurants"
+            curr_btn.clicked = false
+            curr_btn.btn_pressed()
+            //api call and refresh tableview
+            get_restaurants()
+        }
+    }
+    
+    func set_rating_img(rating:Double) -> UIImage{
+        switch rating {
+        case 0.0:
+            return UIImage(named: "regular_0.png")!
+        case 1.0:
+            return UIImage(named: "regular_1.png")!
+        case 1.5:
+            return UIImage(named: "regular_1_half.png")!
+        case 2.0:
+            return UIImage(named: "regular_2.png")!
+        case 2.5:
+            return UIImage(named: "regular_2_half.png")!
+        case 3.0:
+            return UIImage(named: "regular_3.png")!
+        case 3.5:
+            return UIImage(named: "regular_3_half.png")!
+        case 4.0:
+            return UIImage(named: "regular_4.png")!
+        case 4.5:
+            return UIImage(named: "regular_4_half.png")!
+        default:
+            return UIImage(named: "regular_5.png")!
+     
+        }
+    }
+}
+
+extension NewRestViewController:UITableViewDelegate, UITableViewDataSource {
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return self.business_list.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = self.rest_tableview.dequeueReusableCell(withIdentifier: "new_rest_cell", for: indexPath) as! NewRestTableViewCell
+        var curr_business = business_list[indexPath.row]
+        cell.rest_name.text = curr_business.name
+        cell.rest_name.adjustsFontForContentSizeCategory = true
+        cell.rest_category_1.adjustsFontSizeToFitWidth = true
+        cell.rest_category_2.adjustsFontSizeToFitWidth = true
+        if curr_business.categories?.count == 1 {
+            cell.rest_category_1.text = curr_business.categories?[0].name
+            cell.rest_category_2.text = ""
+        }else{
+            cell.rest_category_1.text = curr_business.categories?[0].name
+            cell.rest_category_2.text = curr_business.categories?[1].name
+        }
+        
+        cell.rest_reviewCnt.text = "Based on \(curr_business.reviewCount) Reviews"
+        cell.rest_reviewCnt.adjustsFontSizeToFitWidth = true
+        cell.rest_rating_img.image = set_rating_img(rating: curr_business.rating!)
+        
+        cell.rest_img.sd_setImage(with: curr_business.img_url)
+
+        cell.rest_addr = curr_business.location!
+        
+        cell.rest_phone_num = curr_business.phone_number
+        
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.selected_business = self.business_list[indexPath.row]
+        self.performSegue(withIdentifier: "rest_detail", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if(segue.identifier == "rest_detail"){
+            let dest_vc = segue.destination as! DetailsViewController
+            dest_vc.curr_business = self.selected_business
+            dest_vc.curr_day = self.my_data?.curr_day
         }
     }
 }

@@ -10,6 +10,25 @@ import UIKit
 
 class NewHotelTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var hotel_name: UILabel!
+    
+    @IBOutlet weak var hotel_category_1: UILabel!
+    
+    
+    @IBOutlet weak var hotel_category_2: UILabel!
+    
+    @IBOutlet weak var hotel_rating_img: UIImageView!
+    
+    
+    @IBOutlet weak var hotel_reviewCnt: UILabel!
+    
+    
+    @IBOutlet weak var hotel_img: UIImageView!
+    
+    var hotel_phone_num:String? = ""
+    
+    var hotel_addr:String = ""
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

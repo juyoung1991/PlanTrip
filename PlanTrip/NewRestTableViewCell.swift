@@ -10,6 +10,23 @@ import UIKit
 
 class NewRestTableViewCell: UITableViewCell {
 
+    
+    @IBOutlet weak var rest_img: UIImageView!
+    
+    @IBOutlet weak var rest_name: UILabel!
+    
+    @IBOutlet weak var rest_category_2: UILabel!
+    
+    @IBOutlet weak var rest_category_1: UILabel!
+    
+    @IBOutlet weak var rest_rating_img: UIImageView!
+    
+    @IBOutlet weak var rest_reviewCnt: UILabel!
+    
+    var rest_phone_num:String? = ""
+    
+    var rest_addr:String = ""
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

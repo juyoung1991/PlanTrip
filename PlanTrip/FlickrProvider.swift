@@ -4,6 +4,7 @@
 //
 //  Created by Kyle Clegg on 12/10/14.
 //  Copyright (c) 2014 Kyle Clegg. All rights reserved.
+//  https://github.com/kyleclegg/SwiftFlickrSearch
 //
 
 import Foundation
@@ -13,7 +14,7 @@ class FlickrProvider {
     typealias FlickrResponse = (NSError?, [FlickrPhoto]?) -> Void
     
     struct Keys {
-        static let flickrKey = "YOUR_API_KEY"
+        static let flickrKey = "7ca4df01a3aaf6432ab9bb3ef2476e45"
     }
     
     struct Errors {

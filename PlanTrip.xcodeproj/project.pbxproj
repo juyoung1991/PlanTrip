@@ -7,14 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62188606FFA5732428B3D8DD /* Pods_PlanTripUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 923712869DB94E8B647571BA /* Pods_PlanTripUITests.framework */; };
+		E0C8DFA841F806E768A2F06D /* Pods_PlanTrip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F13686E46CA859D3BA13B8 /* Pods_PlanTrip.framework */; };
+		EF1BC38C1EF863E6008CC7BA /* RestButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BC38B1EF863E6008CC7BA /* RestButton.swift */; };
+		EF1BC38E1EF87598008CC7BA /* SearchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BC38D1EF87598008CC7BA /* SearchButton.swift */; };
+		EF1BC3981EF9B208008CC7BA /* NewRestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BC3971EF9B208008CC7BA /* NewRestTableViewCell.swift */; };
+		EF1BC3A31EF9B55C008CC7BA /* regular_0.png in Resources */ = {isa = PBXBuildFile; fileRef = EF1BC3991EF9B55C008CC7BA /* regular_0.png */; };
+		EF1BC3A41EF9B55C008CC7BA /* regular_1_half.png in Resources */ = {isa = PBXBuildFile; fileRef = EF1BC39A1EF9B55C008CC7BA /* regular_1_half.png */; };
+		EF1BC3A51EF9B55C008CC7BA /* regular_1.png in Resources */ = {isa = PBXBuildFile; fileRef = EF1BC39B1EF9B55C008CC7BA /* regular_1.png */; };
+		EF1BC3A61EF9B55C008CC7BA /* regular_2_half.png in Resources */ = {isa = PBXBuildFile; fileRef = EF1BC39C1EF9B55C008CC7BA /* regular_2_half.png */; };
+		EF1BC3A71EF9B55C008CC7BA /* regular_2.png in Resources */ = {isa = PBXBuildFile; fileRef = EF1BC39D1EF9B55C008CC7BA /* regular_2.png */; };
+		EF1BC3A81EF9B55C008CC7BA /* regular_3_half.png in Resources */ = {isa = PBXBuildFile; fileRef = EF1BC39E1EF9B55C008CC7BA /* regular_3_half.png */; };
+		EF1BC3A91EF9B55C008CC7BA /* regular_3.png in Resources */ = {isa = PBXBuildFile; fileRef = EF1BC39F1EF9B55C008CC7BA /* regular_3.png */; };
+		EF1BC3AA1EF9B55C008CC7BA /* regular_4_half.png in Resources */ = {isa = PBXBuildFile; fileRef = EF1BC3A01EF9B55C008CC7BA /* regular_4_half.png */; };
+		EF1BC3AB1EF9B55C008CC7BA /* regular_4.png in Resources */ = {isa = PBXBuildFile; fileRef = EF1BC3A11EF9B55C008CC7BA /* regular_4.png */; };
+		EF1BC3AC1EF9B55C008CC7BA /* regular_5.png in Resources */ = {isa = PBXBuildFile; fileRef = EF1BC3A21EF9B55C008CC7BA /* regular_5.png */; };
+		EF1BC3AE1EFAFE7C008CC7BA /* NewAttractViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BC3AD1EFAFE7C008CC7BA /* NewAttractViewController.swift */; };
+		EF1BC3B11EFC53D4008CC7BA /* NewHotelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BC3B01EFC53D4008CC7BA /* NewHotelViewController.swift */; };
+		EF1BC3B31EFC565E008CC7BA /* NewAttractTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BC3B21EFC565E008CC7BA /* NewAttractTableViewCell.swift */; };
+		EF1BC3B51EFC6B11008CC7BA /* NewHotelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BC3B41EFC6B11008CC7BA /* NewHotelTableViewCell.swift */; };
+		EF1BC3B81EFC7880008CC7BA /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BC3B71EFC7880008CC7BA /* DetailsViewController.swift */; };
+		EF1BC3BA1EFDACC9008CC7BA /* telephone.png in Resources */ = {isa = PBXBuildFile; fileRef = EF1BC3B91EFDACC9008CC7BA /* telephone.png */; };
+		EF1BC3D01EFF2739008CC7BA /* Yelp_trademark_RGB_outline.png in Resources */ = {isa = PBXBuildFile; fileRef = EF1BC3CF1EFF2739008CC7BA /* Yelp_trademark_RGB_outline.png */; };
+		EF1BC3D21EFF2C70008CC7BA /* Yelp_trademark_RGB.png in Resources */ = {isa = PBXBuildFile; fileRef = EF1BC3D11EFF2C70008CC7BA /* Yelp_trademark_RGB.png */; };
+		EF1BD6401EF1BDD100E76C3E /* DayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BD63F1EF1BDD100E76C3E /* DayTableViewCell.swift */; };
+		EF1BD6421EF1C76500E76C3E /* RestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BD6411EF1C76500E76C3E /* RestTableViewCell.swift */; };
+		EF1BD6511EF1FA1600E76C3E /* AttractionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BD6501EF1FA1600E76C3E /* AttractionTableViewCell.swift */; };
+		EF1BD6531EF1FA4200E76C3E /* HotelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BD6521EF1FA4200E76C3E /* HotelTableViewCell.swift */; };
 		EF28E4131EDBA7D700E807D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF28E4121EDBA7D700E807D0 /* AppDelegate.swift */; };
-		EF28E4151EDBA7D700E807D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF28E4141EDBA7D700E807D0 /* ViewController.swift */; };
+		EF28E4151EDBA7D700E807D0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF28E4141EDBA7D700E807D0 /* MainViewController.swift */; };
 		EF28E4181EDBA7D700E807D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF28E4161EDBA7D700E807D0 /* Main.storyboard */; };
 		EF28E41B1EDBA7D700E807D0 /* PlanTrip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF28E4191EDBA7D700E807D0 /* PlanTrip.xcdatamodeld */; };
 		EF28E41D1EDBA7D700E807D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF28E41C1EDBA7D700E807D0 /* Assets.xcassets */; };
 		EF28E4201EDBA7D700E807D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF28E41E1EDBA7D700E807D0 /* LaunchScreen.storyboard */; };
 		EF28E42B1EDBA7D700E807D0 /* PlanTripTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF28E42A1EDBA7D700E807D0 /* PlanTripTests.swift */; };
 		EF28E4361EDBA7D700E807D0 /* PlanTripUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF28E4351EDBA7D700E807D0 /* PlanTripUITests.swift */; };
+		EF7E36291EEF137A007BFF7A /* world-cities.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF7E36281EEF137A007BFF7A /* world-cities.txt */; };
+		EF8B734E1EDE1F2900A83631 /* plantrip_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EF8B734D1EDE1F2900A83631 /* plantrip_logo.png */; };
+		EFA4D1801F01A204008B2D0C /* AttractCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4D17F1F01A204008B2D0C /* AttractCollectionViewCell.swift */; };
+		EFA4D1821F01A78E008B2D0C /* HotelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4D1811F01A78E008B2D0C /* HotelCollectionViewCell.swift */; };
+		EFA4D1841F01AA85008B2D0C /* RestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4D1831F01AA85008B2D0C /* RestCollectionViewCell.swift */; };
+		EFAD7E1D1EF3078600C82D96 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD7E1C1EF3078600C82D96 /* Extension.swift */; };
+		EFAD7E1F1EF30D3000C82D96 /* CollapsibleTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD7E1E1EF30D3000C82D96 /* CollapsibleTableViewHeader.swift */; };
+		EFBBE6561F04A74A00955FC9 /* FlickrPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBBE6541F04A74A00955FC9 /* FlickrPhoto.swift */; };
+		EFBBE6571F04A74A00955FC9 /* FlickrProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBBE6551F04A74A00955FC9 /* FlickrProvider.swift */; };
+		EFBBE6621F04AC8400955FC9 /* Hotel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBBE6581F04AC8300955FC9 /* Hotel+CoreDataClass.swift */; };
+		EFBBE6631F04AC8400955FC9 /* Hotel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBBE6591F04AC8300955FC9 /* Hotel+CoreDataProperties.swift */; };
+		EFBBE6641F04AC8400955FC9 /* Day+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBBE65A1F04AC8300955FC9 /* Day+CoreDataClass.swift */; };
+		EFBBE6651F04AC8400955FC9 /* Day+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBBE65B1F04AC8300955FC9 /* Day+CoreDataProperties.swift */; };
+		EFBBE6661F04AC8400955FC9 /* Attraction+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBBE65C1F04AC8400955FC9 /* Attraction+CoreDataClass.swift */; };
+		EFBBE6671F04AC8400955FC9 /* Attraction+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBBE65D1F04AC8400955FC9 /* Attraction+CoreDataProperties.swift */; };
+		EFBBE6681F04AC8400955FC9 /* Restaurant+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBBE65E1F04AC8400955FC9 /* Restaurant+CoreDataClass.swift */; };
+		EFBBE6691F04AC8400955FC9 /* Restaurant+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBBE65F1F04AC8400955FC9 /* Restaurant+CoreDataProperties.swift */; };
+		EFBBE66A1F04AC8400955FC9 /* Trip+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBBE6601F04AC8400955FC9 /* Trip+CoreDataClass.swift */; };
+		EFBBE66B1F04AC8400955FC9 /* Trip+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBBE6611F04AC8400955FC9 /* Trip+CoreDataProperties.swift */; };
+		EFBBE66D1F06F4F400955FC9 /* no-image-box.png in Resources */ = {isa = PBXBuildFile; fileRef = EFBBE66C1F06F4F400955FC9 /* no-image-box.png */; };
+		EFDD8A631EF4A6AF002631C8 /* NewRestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDD8A621EF4A6AF002631C8 /* NewRestViewController.swift */; };
+		EFDE4B421EE135FF00F539A1 /* TripTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE4B411EE135FF00F539A1 /* TripTableViewCell.swift */; };
+		EFDE4B481EE5CF3800F539A1 /* DaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE4B471EE5CF3800F539A1 /* DaysViewController.swift */; };
+		F1667E20274F5151C8503D49 /* Pods_PlanTripTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C69AB1D535FA08F9F4E0EDF /* Pods_PlanTripTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +86,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		106365E6691D214BE0F28FA0 /* Pods-PlanTripUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanTripUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlanTripUITests/Pods-PlanTripUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3C69AB1D535FA08F9F4E0EDF /* Pods_PlanTripTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanTripTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0DE63B856804736AB10AFA /* Pods-PlanTripTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanTripTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlanTripTests/Pods-PlanTripTests.debug.xcconfig"; sourceTree = "<group>"; };
+		70EC5E77CEEFCA11C559F7BD /* Pods-PlanTripUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanTripUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlanTripUITests/Pods-PlanTripUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		74F13686E46CA859D3BA13B8 /* Pods_PlanTrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanTrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		923712869DB94E8B647571BA /* Pods_PlanTripUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanTripUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26989169F57BDFF6755B042 /* Pods-PlanTripTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanTripTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlanTripTests/Pods-PlanTripTests.release.xcconfig"; sourceTree = "<group>"; };
+		EF1BC38B1EF863E6008CC7BA /* RestButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestButton.swift; sourceTree = "<group>"; };
+		EF1BC38D1EF87598008CC7BA /* SearchButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchButton.swift; sourceTree = "<group>"; };
+		EF1BC3971EF9B208008CC7BA /* NewRestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRestTableViewCell.swift; sourceTree = "<group>"; };
+		EF1BC3991EF9B55C008CC7BA /* regular_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = regular_0.png; sourceTree = "<group>"; };
+		EF1BC39A1EF9B55C008CC7BA /* regular_1_half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = regular_1_half.png; sourceTree = "<group>"; };
+		EF1BC39B1EF9B55C008CC7BA /* regular_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = regular_1.png; sourceTree = "<group>"; };
+		EF1BC39C1EF9B55C008CC7BA /* regular_2_half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = regular_2_half.png; sourceTree = "<group>"; };
+		EF1BC39D1EF9B55C008CC7BA /* regular_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = regular_2.png; sourceTree = "<group>"; };
+		EF1BC39E1EF9B55C008CC7BA /* regular_3_half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = regular_3_half.png; sourceTree = "<group>"; };
+		EF1BC39F1EF9B55C008CC7BA /* regular_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = regular_3.png; sourceTree = "<group>"; };
+		EF1BC3A01EF9B55C008CC7BA /* regular_4_half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = regular_4_half.png; sourceTree = "<group>"; };
+		EF1BC3A11EF9B55C008CC7BA /* regular_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = regular_4.png; sourceTree = "<group>"; };
+		EF1BC3A21EF9B55C008CC7BA /* regular_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = regular_5.png; sourceTree = "<group>"; };
+		EF1BC3AD1EFAFE7C008CC7BA /* NewAttractViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewAttractViewController.swift; sourceTree = "<group>"; };
+		EF1BC3B01EFC53D4008CC7BA /* NewHotelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewHotelViewController.swift; sourceTree = "<group>"; };
+		EF1BC3B21EFC565E008CC7BA /* NewAttractTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewAttractTableViewCell.swift; sourceTree = "<group>"; };
+		EF1BC3B41EFC6B11008CC7BA /* NewHotelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewHotelTableViewCell.swift; sourceTree = "<group>"; };
+		EF1BC3B71EFC7880008CC7BA /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		EF1BC3B91EFDACC9008CC7BA /* telephone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = telephone.png; sourceTree = "<group>"; };
+		EF1BC3CF1EFF2739008CC7BA /* Yelp_trademark_RGB_outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yelp_trademark_RGB_outline.png; sourceTree = "<group>"; };
+		EF1BC3D11EFF2C70008CC7BA /* Yelp_trademark_RGB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yelp_trademark_RGB.png; sourceTree = "<group>"; };
+		EF1BD63F1EF1BDD100E76C3E /* DayTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayTableViewCell.swift; sourceTree = "<group>"; };
+		EF1BD6411EF1C76500E76C3E /* RestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestTableViewCell.swift; sourceTree = "<group>"; };
+		EF1BD6501EF1FA1600E76C3E /* AttractionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttractionTableViewCell.swift; sourceTree = "<group>"; };
+		EF1BD6521EF1FA4200E76C3E /* HotelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelTableViewCell.swift; sourceTree = "<group>"; };
 		EF28E40F1EDBA7D700E807D0 /* PlanTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF28E4121EDBA7D700E807D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF28E4141EDBA7D700E807D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF28E4141EDBA7D700E807D0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		EF28E4171EDBA7D700E807D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF28E41A1EDBA7D700E807D0 /* PlanTrip.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlanTrip.xcdatamodel; sourceTree = "<group>"; };
 		EF28E41C1EDBA7D700E807D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +132,31 @@
 		EF28E4311EDBA7D700E807D0 /* PlanTripUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanTripUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF28E4351EDBA7D700E807D0 /* PlanTripUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanTripUITests.swift; sourceTree = "<group>"; };
 		EF28E4371EDBA7D700E807D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7E36281EEF137A007BFF7A /* world-cities.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "world-cities.txt"; sourceTree = "<group>"; };
+		EF8B734D1EDE1F2900A83631 /* plantrip_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plantrip_logo.png; sourceTree = "<group>"; };
+		EFA4D17F1F01A204008B2D0C /* AttractCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttractCollectionViewCell.swift; sourceTree = "<group>"; };
+		EFA4D1811F01A78E008B2D0C /* HotelCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelCollectionViewCell.swift; sourceTree = "<group>"; };
+		EFA4D1831F01AA85008B2D0C /* RestCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestCollectionViewCell.swift; sourceTree = "<group>"; };
+		EFAD7E1C1EF3078600C82D96 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		EFAD7E1E1EF30D3000C82D96 /* CollapsibleTableViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewHeader.swift; sourceTree = "<group>"; };
+		EFBBE6541F04A74A00955FC9 /* FlickrPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrPhoto.swift; sourceTree = "<group>"; };
+		EFBBE6551F04A74A00955FC9 /* FlickrProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrProvider.swift; sourceTree = "<group>"; };
+		EFBBE6581F04AC8300955FC9 /* Hotel+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Hotel+CoreDataClass.swift"; path = "PlanTrip/Hotel+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EFBBE6591F04AC8300955FC9 /* Hotel+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Hotel+CoreDataProperties.swift"; path = "PlanTrip/Hotel+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EFBBE65A1F04AC8300955FC9 /* Day+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Day+CoreDataClass.swift"; path = "PlanTrip/Day+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EFBBE65B1F04AC8300955FC9 /* Day+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Day+CoreDataProperties.swift"; path = "PlanTrip/Day+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EFBBE65C1F04AC8400955FC9 /* Attraction+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Attraction+CoreDataClass.swift"; path = "PlanTrip/Attraction+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EFBBE65D1F04AC8400955FC9 /* Attraction+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Attraction+CoreDataProperties.swift"; path = "PlanTrip/Attraction+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EFBBE65E1F04AC8400955FC9 /* Restaurant+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Restaurant+CoreDataClass.swift"; path = "PlanTrip/Restaurant+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EFBBE65F1F04AC8400955FC9 /* Restaurant+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Restaurant+CoreDataProperties.swift"; path = "PlanTrip/Restaurant+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EFBBE6601F04AC8400955FC9 /* Trip+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Trip+CoreDataClass.swift"; path = "PlanTrip/Trip+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EFBBE6611F04AC8400955FC9 /* Trip+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Trip+CoreDataProperties.swift"; path = "PlanTrip/Trip+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EFBBE66C1F06F4F400955FC9 /* no-image-box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no-image-box.png"; sourceTree = "<group>"; };
+		EFDD8A621EF4A6AF002631C8 /* NewRestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRestViewController.swift; sourceTree = "<group>"; };
+		EFDE4B411EE135FF00F539A1 /* TripTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripTableViewCell.swift; sourceTree = "<group>"; };
+		EFDE4B471EE5CF3800F539A1 /* DaysViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaysViewController.swift; sourceTree = "<group>"; };
+		F077E14A9C8477BE2A1A6745 /* Pods-PlanTrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanTrip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlanTrip/Pods-PlanTrip.debug.xcconfig"; sourceTree = "<group>"; };
+		F96EF3384B36129AF2C501DD /* Pods-PlanTrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanTrip.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlanTrip/Pods-PlanTrip.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +164,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0C8DFA841F806E768A2F06D /* Pods_PlanTrip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +172,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1667E20274F5151C8503D49 /* Pods_PlanTripTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +180,120 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62188606FFA5732428B3D8DD /* Pods_PlanTripUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1ECE01B4B16BDB9D3AA15B9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F077E14A9C8477BE2A1A6745 /* Pods-PlanTrip.debug.xcconfig */,
+				F96EF3384B36129AF2C501DD /* Pods-PlanTrip.release.xcconfig */,
+				3F0DE63B856804736AB10AFA /* Pods-PlanTripTests.debug.xcconfig */,
+				E26989169F57BDFF6755B042 /* Pods-PlanTripTests.release.xcconfig */,
+				70EC5E77CEEFCA11C559F7BD /* Pods-PlanTripUITests.debug.xcconfig */,
+				106365E6691D214BE0F28FA0 /* Pods-PlanTripUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		86A6FC4D3A595C49CEDD94C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74F13686E46CA859D3BA13B8 /* Pods_PlanTrip.framework */,
+				3C69AB1D535FA08F9F4E0EDF /* Pods_PlanTripTests.framework */,
+				923712869DB94E8B647571BA /* Pods_PlanTripUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF1BC38A1EF863C9008CC7BA /* Custom Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				EF1BC38B1EF863E6008CC7BA /* RestButton.swift */,
+				EF1BC38D1EF87598008CC7BA /* SearchButton.swift */,
+			);
+			name = "Custom Buttons";
+			sourceTree = "<group>";
+		};
+		EF1BC38F1EF9B054008CC7BA /* Trip */ = {
+			isa = PBXGroup;
+			children = (
+				EF28E4141EDBA7D700E807D0 /* MainViewController.swift */,
+				EFDE4B411EE135FF00F539A1 /* TripTableViewCell.swift */,
+			);
+			name = Trip;
+			sourceTree = "<group>";
+		};
+		EF1BC3911EF9B070008CC7BA /* Days */ = {
+			isa = PBXGroup;
+			children = (
+				EFDE4B471EE5CF3800F539A1 /* DaysViewController.swift */,
+				EFAD7E1E1EF30D3000C82D96 /* CollapsibleTableViewHeader.swift */,
+				EF1BD63F1EF1BDD100E76C3E /* DayTableViewCell.swift */,
+				EF1BD6451EF1F9BE00E76C3E /* Custom Days Table View Cells */,
+			);
+			name = Days;
+			sourceTree = "<group>";
+		};
+		EF1BC3931EF9B0A1008CC7BA /* New Item */ = {
+			isa = PBXGroup;
+			children = (
+				EF1BC3AF1EFC53C9008CC7BA /* Hotel */,
+				EF1BC3961EF9B0C0008CC7BA /* Attraction */,
+				EF1BC3941EF9B0AE008CC7BA /* Rest */,
+			);
+			name = "New Item";
+			sourceTree = "<group>";
+		};
+		EF1BC3941EF9B0AE008CC7BA /* Rest */ = {
+			isa = PBXGroup;
+			children = (
+				EFDD8A621EF4A6AF002631C8 /* NewRestViewController.swift */,
+				EF1BC3971EF9B208008CC7BA /* NewRestTableViewCell.swift */,
+			);
+			name = Rest;
+			sourceTree = "<group>";
+		};
+		EF1BC3961EF9B0C0008CC7BA /* Attraction */ = {
+			isa = PBXGroup;
+			children = (
+				EF1BC3AD1EFAFE7C008CC7BA /* NewAttractViewController.swift */,
+				EF1BC3B21EFC565E008CC7BA /* NewAttractTableViewCell.swift */,
+			);
+			name = Attraction;
+			sourceTree = "<group>";
+		};
+		EF1BC3AF1EFC53C9008CC7BA /* Hotel */ = {
+			isa = PBXGroup;
+			children = (
+				EF1BC3B01EFC53D4008CC7BA /* NewHotelViewController.swift */,
+				EF1BC3B41EFC6B11008CC7BA /* NewHotelTableViewCell.swift */,
+			);
+			name = Hotel;
+			sourceTree = "<group>";
+		};
+		EF1BC3B61EFC786F008CC7BA /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				EF1BC3B71EFC7880008CC7BA /* DetailsViewController.swift */,
+			);
+			name = Details;
+			sourceTree = "<group>";
+		};
+		EF1BD6451EF1F9BE00E76C3E /* Custom Days Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EFA4D17E1F01A0BD008B2D0C /* Attraction */,
+				EFA4D17D1F01A0B9008B2D0C /* Hotel */,
+				EFA4D17C1F01A0B2008B2D0C /* Restaurant */,
+			);
+			name = "Custom Days Table View Cells";
+			sourceTree = "<group>";
+		};
 		EF28E4061EDBA7D700E807D0 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +301,8 @@
 				EF28E4291EDBA7D700E807D0 /* PlanTripTests */,
 				EF28E4341EDBA7D700E807D0 /* PlanTripUITests */,
 				EF28E4101EDBA7D700E807D0 /* Products */,
+				1ECE01B4B16BDB9D3AA15B9C /* Pods */,
+				86A6FC4D3A595C49CEDD94C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +319,18 @@
 		EF28E4111EDBA7D700E807D0 /* PlanTrip */ = {
 			isa = PBXGroup;
 			children = (
+				EFBBE6541F04A74A00955FC9 /* FlickrPhoto.swift */,
+				EFBBE6551F04A74A00955FC9 /* FlickrProvider.swift */,
+				EFDE4B301EE0ACD900F539A1 /* Models */,
+				EF8B734C1EDE1F1E00A83631 /* resources */,
+				EF28E4441EDBA8D400E807D0 /* ViewControllers */,
 				EF28E4121EDBA7D700E807D0 /* AppDelegate.swift */,
-				EF28E4141EDBA7D700E807D0 /* ViewController.swift */,
 				EF28E4161EDBA7D700E807D0 /* Main.storyboard */,
 				EF28E41C1EDBA7D700E807D0 /* Assets.xcassets */,
 				EF28E41E1EDBA7D700E807D0 /* LaunchScreen.storyboard */,
 				EF28E4211EDBA7D700E807D0 /* Info.plist */,
 				EF28E4191EDBA7D700E807D0 /* PlanTrip.xcdatamodeld */,
+				EFAD7E1C1EF3078600C82D96 /* Extension.swift */,
 			);
 			path = PlanTrip;
 			sourceTree = "<group>";
@@ -128,6 +353,86 @@
 			path = PlanTripUITests;
 			sourceTree = "<group>";
 		};
+		EF28E4441EDBA8D400E807D0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF1BC3B61EFC786F008CC7BA /* Details */,
+				EF1BC3931EF9B0A1008CC7BA /* New Item */,
+				EF1BC3911EF9B070008CC7BA /* Days */,
+				EF1BC38F1EF9B054008CC7BA /* Trip */,
+				EF1BC38A1EF863C9008CC7BA /* Custom Buttons */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EF8B734C1EDE1F1E00A83631 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				EFBBE66C1F06F4F400955FC9 /* no-image-box.png */,
+				EF1BC3D11EFF2C70008CC7BA /* Yelp_trademark_RGB.png */,
+				EF1BC3B91EFDACC9008CC7BA /* telephone.png */,
+				EF1BC3991EF9B55C008CC7BA /* regular_0.png */,
+				EF1BC39A1EF9B55C008CC7BA /* regular_1_half.png */,
+				EF1BC39B1EF9B55C008CC7BA /* regular_1.png */,
+				EF1BC39C1EF9B55C008CC7BA /* regular_2_half.png */,
+				EF1BC39E1EF9B55C008CC7BA /* regular_3_half.png */,
+				EF1BC39D1EF9B55C008CC7BA /* regular_2.png */,
+				EF1BC39F1EF9B55C008CC7BA /* regular_3.png */,
+				EF1BC3A01EF9B55C008CC7BA /* regular_4_half.png */,
+				EF1BC3A11EF9B55C008CC7BA /* regular_4.png */,
+				EF1BC3A21EF9B55C008CC7BA /* regular_5.png */,
+				EF7E36281EEF137A007BFF7A /* world-cities.txt */,
+				EF8B734D1EDE1F2900A83631 /* plantrip_logo.png */,
+				EF1BC3CF1EFF2739008CC7BA /* Yelp_trademark_RGB_outline.png */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		EFA4D17C1F01A0B2008B2D0C /* Restaurant */ = {
+			isa = PBXGroup;
+			children = (
+				EF1BD6411EF1C76500E76C3E /* RestTableViewCell.swift */,
+				EFA4D1831F01AA85008B2D0C /* RestCollectionViewCell.swift */,
+			);
+			name = Restaurant;
+			sourceTree = "<group>";
+		};
+		EFA4D17D1F01A0B9008B2D0C /* Hotel */ = {
+			isa = PBXGroup;
+			children = (
+				EF1BD6521EF1FA4200E76C3E /* HotelTableViewCell.swift */,
+				EFA4D1811F01A78E008B2D0C /* HotelCollectionViewCell.swift */,
+			);
+			name = Hotel;
+			sourceTree = "<group>";
+		};
+		EFA4D17E1F01A0BD008B2D0C /* Attraction */ = {
+			isa = PBXGroup;
+			children = (
+				EF1BD6501EF1FA1600E76C3E /* AttractionTableViewCell.swift */,
+				EFA4D17F1F01A204008B2D0C /* AttractCollectionViewCell.swift */,
+			);
+			name = Attraction;
+			sourceTree = "<group>";
+		};
+		EFDE4B301EE0ACD900F539A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EFBBE6581F04AC8300955FC9 /* Hotel+CoreDataClass.swift */,
+				EFBBE6591F04AC8300955FC9 /* Hotel+CoreDataProperties.swift */,
+				EFBBE65A1F04AC8300955FC9 /* Day+CoreDataClass.swift */,
+				EFBBE65B1F04AC8300955FC9 /* Day+CoreDataProperties.swift */,
+				EFBBE65C1F04AC8400955FC9 /* Attraction+CoreDataClass.swift */,
+				EFBBE65D1F04AC8400955FC9 /* Attraction+CoreDataProperties.swift */,
+				EFBBE65E1F04AC8400955FC9 /* Restaurant+CoreDataClass.swift */,
+				EFBBE65F1F04AC8400955FC9 /* Restaurant+CoreDataProperties.swift */,
+				EFBBE6601F04AC8400955FC9 /* Trip+CoreDataClass.swift */,
+				EFBBE6611F04AC8400955FC9 /* Trip+CoreDataProperties.swift */,
+			);
+			name = Models;
+			path = ..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +440,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF28E43A1EDBA7D700E807D0 /* Build configuration list for PBXNativeTarget "PlanTrip" */;
 			buildPhases = (
+				0254DBD505E9EFE26DC683FD /* [CP] Check Pods Manifest.lock */,
 				EF28E40B1EDBA7D700E807D0 /* Sources */,
 				EF28E40C1EDBA7D700E807D0 /* Frameworks */,
 				EF28E40D1EDBA7D700E807D0 /* Resources */,
+				C226C1E54A2679D28ED208C3 /* [CP] Embed Pods Frameworks */,
+				7F6268A9B9955145E9BE61BC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +460,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF28E43D1EDBA7D700E807D0 /* Build configuration list for PBXNativeTarget "PlanTripTests" */;
 			buildPhases = (
+				878A9C44D93A06B63BD812DD /* [CP] Check Pods Manifest.lock */,
 				EF28E4221EDBA7D700E807D0 /* Sources */,
 				EF28E4231EDBA7D700E807D0 /* Frameworks */,
 				EF28E4241EDBA7D700E807D0 /* Resources */,
+				5FD895EE824192AF8CBFDFFD /* [CP] Embed Pods Frameworks */,
+				DFBD0AD336B3DDF08E409045 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +481,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF28E4401EDBA7D700E807D0 /* Build configuration list for PBXNativeTarget "PlanTripUITests" */;
 			buildPhases = (
+				9D5F2FF7671FB6E7FD2ECDBD /* [CP] Check Pods Manifest.lock */,
 				EF28E42D1EDBA7D700E807D0 /* Sources */,
 				EF28E42E1EDBA7D700E807D0 /* Frameworks */,
 				EF28E42F1EDBA7D700E807D0 /* Resources */,
+				DDEF120BE81634E1C19F9875 /* [CP] Embed Pods Frameworks */,
+				E0067ED12B9C589C1892A243 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,9 +552,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF7E36291EEF137A007BFF7A /* world-cities.txt in Resources */,
+				EF1BC3AC1EF9B55C008CC7BA /* regular_5.png in Resources */,
+				EF1BC3AB1EF9B55C008CC7BA /* regular_4.png in Resources */,
+				EF1BC3A41EF9B55C008CC7BA /* regular_1_half.png in Resources */,
+				EF1BC3BA1EFDACC9008CC7BA /* telephone.png in Resources */,
+				EF1BC3A51EF9B55C008CC7BA /* regular_1.png in Resources */,
+				EF1BC3A31EF9B55C008CC7BA /* regular_0.png in Resources */,
+				EF1BC3A91EF9B55C008CC7BA /* regular_3.png in Resources */,
 				EF28E4201EDBA7D700E807D0 /* LaunchScreen.storyboard in Resources */,
+				EF1BC3A61EF9B55C008CC7BA /* regular_2_half.png in Resources */,
 				EF28E41D1EDBA7D700E807D0 /* Assets.xcassets in Resources */,
+				EF1BC3A71EF9B55C008CC7BA /* regular_2.png in Resources */,
+				EF8B734E1EDE1F2900A83631 /* plantrip_logo.png in Resources */,
+				EF1BC3D21EFF2C70008CC7BA /* Yelp_trademark_RGB.png in Resources */,
 				EF28E4181EDBA7D700E807D0 /* Main.storyboard in Resources */,
+				EF1BC3A81EF9B55C008CC7BA /* regular_3_half.png in Resources */,
+				EF1BC3AA1EF9B55C008CC7BA /* regular_4_half.png in Resources */,
+				EF1BC3D01EFF2739008CC7BA /* Yelp_trademark_RGB_outline.png in Resources */,
+				EFBBE66D1F06F4F400955FC9 /* no-image-box.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +590,184 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0254DBD505E9EFE26DC683FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5FD895EE824192AF8CBFDFFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlanTripTests/Pods-PlanTripTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F6268A9B9955145E9BE61BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlanTrip/Pods-PlanTrip-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		878A9C44D93A06B63BD812DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D5F2FF7671FB6E7FD2ECDBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C226C1E54A2679D28ED208C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlanTrip/Pods-PlanTrip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDEF120BE81634E1C19F9875 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlanTripUITests/Pods-PlanTripUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFBD0AD336B3DDF08E409045 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlanTripTests/Pods-PlanTripTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0067ED12B9C589C1892A243 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlanTripUITests/Pods-PlanTripUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EF28E40B1EDBA7D700E807D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF28E4151EDBA7D700E807D0 /* ViewController.swift in Sources */,
+				EFBBE6621F04AC8400955FC9 /* Hotel+CoreDataClass.swift in Sources */,
+				EF1BC3981EF9B208008CC7BA /* NewRestTableViewCell.swift in Sources */,
+				EFDE4B421EE135FF00F539A1 /* TripTableViewCell.swift in Sources */,
+				EFBBE6691F04AC8400955FC9 /* Restaurant+CoreDataProperties.swift in Sources */,
+				EF28E4151EDBA7D700E807D0 /* MainViewController.swift in Sources */,
+				EF1BC38E1EF87598008CC7BA /* SearchButton.swift in Sources */,
+				EFBBE6631F04AC8400955FC9 /* Hotel+CoreDataProperties.swift in Sources */,
+				EFBBE6681F04AC8400955FC9 /* Restaurant+CoreDataClass.swift in Sources */,
+				EF1BD6421EF1C76500E76C3E /* RestTableViewCell.swift in Sources */,
+				EFAD7E1D1EF3078600C82D96 /* Extension.swift in Sources */,
+				EFA4D1821F01A78E008B2D0C /* HotelCollectionViewCell.swift in Sources */,
+				EFAD7E1F1EF30D3000C82D96 /* CollapsibleTableViewHeader.swift in Sources */,
+				EF1BC3B11EFC53D4008CC7BA /* NewHotelViewController.swift in Sources */,
+				EFDD8A631EF4A6AF002631C8 /* NewRestViewController.swift in Sources */,
+				EFBBE6641F04AC8400955FC9 /* Day+CoreDataClass.swift in Sources */,
+				EFBBE6571F04A74A00955FC9 /* FlickrProvider.swift in Sources */,
+				EFBBE6661F04AC8400955FC9 /* Attraction+CoreDataClass.swift in Sources */,
+				EFDE4B481EE5CF3800F539A1 /* DaysViewController.swift in Sources */,
+				EFBBE6561F04A74A00955FC9 /* FlickrPhoto.swift in Sources */,
+				EF1BC38C1EF863E6008CC7BA /* RestButton.swift in Sources */,
+				EFA4D1841F01AA85008B2D0C /* RestCollectionViewCell.swift in Sources */,
+				EF1BC3B51EFC6B11008CC7BA /* NewHotelTableViewCell.swift in Sources */,
+				EF1BD6401EF1BDD100E76C3E /* DayTableViewCell.swift in Sources */,
 				EF28E4131EDBA7D700E807D0 /* AppDelegate.swift in Sources */,
+				EFBBE66A1F04AC8400955FC9 /* Trip+CoreDataClass.swift in Sources */,
+				EF1BC3B81EFC7880008CC7BA /* DetailsViewController.swift in Sources */,
+				EFA4D1801F01A204008B2D0C /* AttractCollectionViewCell.swift in Sources */,
+				EFBBE6651F04AC8400955FC9 /* Day+CoreDataProperties.swift in Sources */,
+				EFBBE66B1F04AC8400955FC9 /* Trip+CoreDataProperties.swift in Sources */,
+				EF1BC3AE1EFAFE7C008CC7BA /* NewAttractViewController.swift in Sources */,
 				EF28E41B1EDBA7D700E807D0 /* PlanTrip.xcdatamodeld in Sources */,
+				EF1BD6531EF1FA4200E76C3E /* HotelTableViewCell.swift in Sources */,
+				EF1BD6511EF1FA1600E76C3E /* AttractionTableViewCell.swift in Sources */,
+				EF1BC3B31EFC565E008CC7BA /* NewAttractTableViewCell.swift in Sources */,
+				EFBBE6671F04AC8400955FC9 /* Attraction+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +917,7 @@
 		};
 		EF28E43B1EDBA7D700E807D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F077E14A9C8477BE2A1A6745 /* Pods-PlanTrip.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S7N5E7Z94J;
@@ -430,9 +931,11 @@
 		};
 		EF28E43C1EDBA7D700E807D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F96EF3384B36129AF2C501DD /* Pods-PlanTrip.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S7N5E7Z94J;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = PlanTrip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JuYoungKim.PlanTrip;
@@ -443,6 +946,7 @@
 		};
 		EF28E43E1EDBA7D700E807D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F0DE63B856804736AB10AFA /* Pods-PlanTripTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +962,7 @@
 		};
 		EF28E43F1EDBA7D700E807D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E26989169F57BDFF6755B042 /* Pods-PlanTripTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +978,7 @@
 		};
 		EF28E4411EDBA7D700E807D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70EC5E77CEEFCA11C559F7BD /* Pods-PlanTripUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = S7N5E7Z94J;
@@ -487,6 +993,7 @@
 		};
 		EF28E4421EDBA7D700E807D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 106365E6691D214BE0F28FA0 /* Pods-PlanTripUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = S7N5E7Z94J;
@@ -518,6 +1025,7 @@
 				EF28E43C1EDBA7D700E807D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF28E43D1EDBA7D700E807D0 /* Build configuration list for PBXNativeTarget "PlanTripTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +1034,7 @@
 				EF28E43F1EDBA7D700E807D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF28E4401EDBA7D700E807D0 /* Build configuration list for PBXNativeTarget "PlanTripUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +1043,7 @@
 				EF28E4421EDBA7D700E807D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -17,5 +17,12 @@ class SearchButton: UIButton {
         // Drawing code
     }
     */
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        clipsToBounds = true
+        contentEdgeInsets = UIEdgeInsets(top: 8, left: 8, bottom: 8, right: 8)
+        setTitleColor(app_color, for: .normal)
+        
+    }
 
 }
